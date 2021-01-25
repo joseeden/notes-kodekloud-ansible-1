@@ -30,5 +30,5 @@ So I was actually able to finish all 10 sections of the course in a matter of 2 
 
 Feels like this course is the ultimate supplementary to the Ansible crash course section of DevNet.
 
-Once I'm done with the project, I'll try to challenge myyself by creating a playbook which does all the steps required defined in the project.
+Once I'm done with the project, I'll try to challenge myself by creating a playbook which does all the steps required defined in the project.
 _________________________________________
