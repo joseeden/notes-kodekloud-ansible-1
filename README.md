@@ -32,3 +32,12 @@ Feels like this course is the ultimate supplementary to the Ansible crash course
 
 Once I'm done with the project, I'll try to challenge myself by creating a playbook which does all the steps required defined in the project.
 _________________________________________
+
+**UPDATE - 2021-01-26**
+
+Finished the project hours ago, but I decided to launch a new EC2 instance, redo the steps, and document what I did along the way.
+
+Now let's see if I'll be able to create a playbook that will auto-magically do all the deployment process. 
+
+Ayt. Let's do this.
+_________________________________________
