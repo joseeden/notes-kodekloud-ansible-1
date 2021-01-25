@@ -15,7 +15,7 @@ Note that this won't be using Ansible to automate the deployment. We will just w
 Before starting off, it's good to always know what you're automating - what are the different components in the application and how they all work together without automation vs. how they should work together when there's automation.
 
 1.  Identify the system to deploy our application. This will be **CentOS Linux.** This includes installing the **firewall**.
-<BR>
+<br>
 
 2.  Install and configure **Apache HTTPD server**
 
