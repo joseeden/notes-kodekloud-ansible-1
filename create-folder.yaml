@@ -1,0 +1,7 @@
+-
+    name: 'Create ansible-test folder in target machine'
+    hosts: server1
+    tasks:
+        -
+            name: 'Create ansible-test folder on server1'
+            command: mkdir ./ansible-test creates=./ansible-test 

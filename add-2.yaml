@@ -1,0 +1,11 @@
+-
+    name: Add servers to /ansible-test/sample-file.txt on server1
+    hosts: server1
+    vars:
+      anotherserver: 10.0.0.127
+    tasks:
+        -
+            name: Add another server to /ansible-test/sample-file.txt
+            lineinfile: 
+                path: ~/ansible-test/sample-file.txt
+                line: 'server {{anotherserver}}'

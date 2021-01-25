@@ -1,0 +1,13 @@
+-
+    name: Create users
+    hosts: server1
+    tasks:
+        -
+            user: "{{ item }}" state=present
+            loop:
+                - john
+                - jane
+                - jeff
+                - sam
+                - ron
+                - mack

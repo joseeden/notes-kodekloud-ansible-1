@@ -1,0 +1,9 @@
+-
+  name: Copy file from controller to host machines
+  hosts: linuxservers
+  tasks:
+    -
+      name: Copy files
+      copy:
+        src: /tmp/test-file.txt
+        dest: /etc/test-file.conf

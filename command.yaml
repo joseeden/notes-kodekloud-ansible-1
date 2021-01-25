@@ -1,0 +1,30 @@
+-
+  name: Demo of using command module
+  hosts: server1
+  tasks:
+    -
+      name: 'Check date'
+      command: date
+      register: date
+    -
+      name: 'Display test-file.conf contents'
+      command: cat /etc/test-file.conf
+      register: display
+    -
+      name: 'Switch first to /etc then display test-file.conf contents'
+      command: cat test-file.conf chdir=/etc 
+      register: change
+
+    #  This will show the output of the tasks 1-3.
+    - 
+      name: 'Show variables'
+      debug:
+        msg: "{{date}}"
+    - 
+      name: 'Show variables'
+      debug:
+        msg: "{{display}}"
+    - 
+      name: 'Show variables'
+      debug:
+        msg: "{{change}}"

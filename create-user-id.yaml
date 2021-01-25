@@ -1,0 +1,28 @@
+-
+    name: Create user with corresponding user ID
+    hosts: server1
+    tasks:
+        - 
+            user:
+                name: "{{ item.name }}"
+                uid: "{{ item.uid }}"
+                state: present
+            loop:
+                - 
+                    name: john
+                    uid: 1000
+                - 
+                    name: jane
+                    uid: 1001
+                -
+                    name: jeff
+                    uid: 1002
+                - 
+                    name: sam
+                    uid: 1003
+                - 
+                    name: ron
+                    uid: 1004
+                -
+                    name: mack
+                    uid: 1005
